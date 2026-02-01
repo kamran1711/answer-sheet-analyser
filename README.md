@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+📘 Answer Sheet Analyser
+An AI-powered Answer Sheet Analyser that automatically evaluates student responses by comparing them with a predefined answer key. The system calculates scores using multiple evaluation modes, generates detailed feedback, and visualizes performance through an interactive dashboard.
 
-## Project info
+🚀 Project Overview
+Manual evaluation of descriptive answer sheets is time-consuming and inconsistent.
+This project aims to automate the answer evaluation process using Natural Language Processing (NLP) and text similarity techniques, ensuring faster, fairer, and more accurate assessment.
+The system supports:
+Automated checking of answers
+Multiple scoring strategies
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Visual analytics for performance insights
+✨ Features
 
-## How can I edit this code?
+📄 Automated Answer Evaluation
+🧠 NLP-based Text Similarity Analysis
+🎯 Multiple Scoring Modes
+Strict
+Moderate
+Lenient
 
-There are several ways of editing your application.
+📊 Performance Analytics Dashboard
 
-**Use Lovable**
+🥧 Pie Charts & Score Distribution
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🧾 Question-wise Feedback
 
-Changes made via Lovable will be committed automatically to this repo.
+🖥️ User-Friendly Interface
 
-**Use your preferred IDE**
+🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Frontend
+HTML
+CSS
+JavaScript
+Chart.js (for analytics)
+Backend
+Python
+Flask (or Node.js if applicable)
+AI / NLP
+TF-IDF / Cosine Similarity
+Sentence Embeddings (optional)
+Text preprocessing techniques
+Database (Optional)
+MySQL / SQLite / MongoDB
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📊 Scoring Modes Explaine
 
-Follow these steps:
+🔴 Strict Mode
+Exact keyword and meaning matching
+Suitable for competitive exams
+🟡 Moderate Mode
+Partial keyword and semantic similarity
+Suitable for university exams
+🟢 Lenient Mode
+Meaning-based evaluation
+Suitable for descriptive and subjective answers
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+Role-based login (Admin / Student / Teacher)
+Cloud deployment
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+🤝 Contributing
+Contributions are welcome!
+Feel free to fork the repository, create a new branch, and submit a pull request.
 
-**Edit a file directly in GitHub**
+📜 License
+This project is licensed under the MIT License.
+👤 Author
+Kamran Akmal
+📌 GitHub: kamran1711
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+⭐ If you like this project, don’t forget to star the repository!
+live link:https://answersheet-analyzer.netlify.app
